@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.thank-you-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-container h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #28a745;
+}

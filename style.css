@@ -1,0 +1,71 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.proposal-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-box p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.proposal-box h2 {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.yes {
+    background-color: #28a745;
+    color: white;
+    margin-right: 10px; /* Add margin */
+}
+
+button.no {
+    background-color: #dc3545;
+    color: white;
+}
+
+button.yes:hover {
+    background-color: #218838;
+}
+
+button.no:hover {
+    background-color: #c82333;
+}
